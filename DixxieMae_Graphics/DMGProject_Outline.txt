@@ -1,0 +1,34 @@
+Requirements Analysis for DixxieMae Graphics:
+
+Who is your target audience? Perspective clients for commision work as well as individuals interested in finding more representaive work of the artist.  
+
+Do you have a client? Yes
+If so, what are your client’s goals? Client is looking for a place to consolidate her social media presence, allow people to easily contact her, and a place where she can display her previous work. 
+
+Do they have detailed feature requests (i.e. scheduling appointments, linking to social media platforms, form submission to mail API, etc)? Yes, form submission to mail, gallery, links to online marketplaces, connection to social media.
+
+
+
+--index.html
+Header -
+Mission Statement? - 
+social media in footer
+
+--about.html
+about artist -
+influences -
+social media in footer 
+
+--gallery.html
+"curated" collection of work - 
+social media in footer
+
+--shop.html
+links to online marketplaces -
+featured/limited edition sold directly - 
+social media in footer
+
+--contact.html
+listing of social media - 
+form submission to mail  -
+
