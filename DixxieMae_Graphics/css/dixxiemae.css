@@ -25,6 +25,16 @@ ul {
 	list-style-type: none;
 }
 
+ul li {
+	display: inline-block;
+	padding: 8px;
+	/*background:white;*/
+	margin:10px;
+}
+ul li img {
+	display: block;
+}
+
 img {
 	max-width: 100%
 
@@ -34,7 +44,7 @@ a:link {
 	text-decoration: none;
   	font-size: 25px;
 	color: #fff;
-	padding: 9px 9px 3px 9px;
+	/*padding: 9px 9px 3px 9px;*/
 }
 
 a:visited {
@@ -43,11 +53,11 @@ a:visited {
 }
 
 a:hover {
-  color: red;
+  color: #FF6699;
 }
 
 a:active {
-  color: darkred;
+  color: red;
 }
 
 
@@ -56,11 +66,11 @@ a:active {
 
 /*Header Styling*/
 .main-header {
-	height: 200px;
+	height: auto;
 	width: 100%;
 	background: #facce9 url('../img/johnnie_banner_1_by_dixxiemae-d5hdtyl.jpg') no-repeat left;
 	background-size: auto;
-	position: center;
+	/*position: center;*/
 	font-weight: bold;
 } 
 
@@ -68,6 +78,7 @@ a:active {
 	font-family: 'Bangers', cursive;
 	font-weight: bold;
 	float: right;
+	padding-bottom: 25px;
 	text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
                0 3px 0 #bbb,
@@ -81,10 +92,29 @@ a:active {
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
 }
+
+.subtitle {
+	font-family: 'Bangers' cursive;
+	float: center;
+	color: #fff;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
 .primary {
 	background: #f8e4f1;
 	background-size: cover; 
-	height: 700px;
+	height: auto;
 	padding: 50px 20px;
 }
 
@@ -97,13 +127,30 @@ a:active {
 	margin-left: 10%;
 }
 
+.summary2 {
+	font-family: 'Oswald';
+	color: grey;
+	font-size: 1.50em;
+	width: auto;
+	float: center;
+	padding-top: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
 .link-buttons {
 	float: left;
 	width: 40%;
-	padding-left: 10%;
-	/*padding-top: 7%;*/
+	padding: 2em 1em 0em 6em;
 	font-family: 'Bangers', cursive;
 
+}
+
+.index-img {
+	display: block;
+	border-width: 40px;
+	float: right;
+	padding-right: 15%
 }
 
 .gallery {
@@ -112,7 +159,6 @@ a:active {
 	float: right;
 	padding-right: 15%
 }
-
 
 .main-footer {
 	background: #facce9;
@@ -137,16 +183,19 @@ a:active {
 .inpage1 {
 	width: 350px;
 	height: 100px;
-	margin-top: 15px;
+	display: block;
+	/*margin-top: 15px;*/
 	background-size: cover;
+	border-radius: 30px 30px 5px 5px;
 	background-image: url(../img/girly_by_dixxiemae-d52jw67.jpg);
 }
 
 .inpage2 {
 	width: 350px;
 	height: 100px;
-	margin: 15px 12.5px 15px 0px;
+	/*margin: 15px 12.5px 15px 0px;*/
 	background-size: cover;
+	border-radius: 5px;
 	background-image: url(../img/fourchris.png);
 }
 
@@ -154,18 +203,28 @@ a:active {
 	width: 350px;
 	height: 100px;
 	background-size: cover;
+	border-radius: 5px 5px 30px 30px;
 	background-image: url(../img/buttons.png);
 }
 
+.social-icon {
+	width: 65px;
+	opacity: 0.5;
+}
 
 
 #top-nav {
-/*	float: right;*/
+	float: left;
 	padding: 2.5rem 1.25rem 0rem 0rem;
 	margin-top: 3rem;
 	margin-bottom: 2rem;
+
 }
 
+#bottom {
+height: auto;
+
+}
 #bottom-nav {
 	margin: 30px 0px 15px 0px;
 }
@@ -173,6 +232,33 @@ a:active {
 #social-media {
 	float: right;
 	padding: 30px 100px 30px;
+} 
+
+#contactsheet {
+	float: right;
+	background: #faccf9;
+	width: 250px;
+	height: 250px;
+	padding: 10px 0px 0px 35px;
+}
+
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay img {
+  margin-top:5%;
+}
+
+#overlay p {
+  color:white;
 }
 
 
