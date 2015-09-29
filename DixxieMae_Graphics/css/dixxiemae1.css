@@ -1,0 +1,39 @@
+/* Layout
+======================*/
+
+body {
+	padding-top: 70px;
+}
+.container {
+	max-width: 1000px;
+}
+
+h1 {
+	font-size: 6rem;
+	color: #fff;
+}
+
+h3 {
+	font-size: 3rem;
+	color: #fff;
+	font-weight: normal;
+	
+}
+
+ul {
+	list-style-type: none;
+}
+
+a:link {
+	text-decoration: none;
+  	color: #fff;
+	/*padding: 9px 9px 3px 9px;*/
+}
+
+.main-header {
+	height: auto;
+	width: 100%;
+	background: #facce9 url('../img/johnnie_banner_1_by_dixxiemae-d5hdtyl.png') no-repeat left;
+	background-size: auto;
+	position: center;
+	font-weight: bold;
