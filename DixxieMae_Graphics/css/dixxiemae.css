@@ -32,7 +32,8 @@ ul li {
 	margin:10px;
 }
 ul li img {
-	display: block;
+	display: inline-block;
+
 }
 
 img {
@@ -67,7 +68,7 @@ a:active {
 .main-header {
 	height: auto;
 	width: 100%;
-	background: #facce9 url('../img/johnnie_banner_1_by_dixxiemae-d5hdtyl.png') no-repeat left;
+	background: #facce9 url('../img/johnnie_banner_2.png') no-repeat left;
 	background-size: auto;
 	position: center;
 	font-weight: bold;
@@ -115,7 +116,6 @@ a:active {
 	background: #f8e4f1;
 	background-size: cover; 
 	height: auto;
-	float: left;
 	padding: 50px 20px;
 }
 
@@ -156,10 +156,11 @@ a:active {
 }
 
 .gallery {
-	display: block;
+	display: inline-block;
 	border-width: 40px;
 	float: right;
-	padding-right: 15%
+	padding-right: 15%;
+	background-color: #f8e4f1;
 }
 
 .main-footer {
