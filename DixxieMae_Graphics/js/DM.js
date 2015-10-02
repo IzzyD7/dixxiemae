@@ -1,6 +1,7 @@
 //Problem: User when clicking on image leads to a dead end.
 //Solution: create an overlay with the lage image. -lightbox.
 
+//class="col-md-6 img-responsive"
 var $overlay = $('<div id="overlay"></div>');
 var $image = $('<img>');
 var $caption = $('<p></p>');
