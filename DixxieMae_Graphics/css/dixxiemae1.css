@@ -185,7 +185,8 @@ a:hover {
 
 #contact-form {
 	width: 50%;
-	background-color: #facce9;
+	height: auto;
+	padding-bottom: 25px;
 }
 
 /* Link Buttons*/
