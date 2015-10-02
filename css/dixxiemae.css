@@ -1,0 +1,278 @@
+/*Base Styling*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	
+}
+
+h1 {
+	font-size: 6rem;
+	color: #fff;
+}
+
+h3 {
+	font-size: 3rem;
+	color: #fff;
+	font-weight: normal;
+	
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	display: inline-block;
+	padding: 8px;
+	/*background:white;*/
+	margin:10px;
+}
+ul li img {
+	display: inline-block;
+
+}
+
+img {
+	max-width: 100%
+
+}
+
+a:link {
+	text-decoration: none;
+  	color: #fff;
+	/*padding: 9px 9px 3px 9px;*/
+}
+
+a:visited {
+	color: #fff;
+	/*color: #f8e4f1;*/
+}
+
+a:hover {
+  color: #FF6699;
+}
+
+a:active {
+  color: red;
+}
+
+
+
+
+
+/*Header Styling*/
+.main-header {
+	height: auto;
+	width: 100%;
+	background: #facce9 url('../img/johnnie_banner_2.png') no-repeat left;
+	background-size: auto;
+	position: center;
+	font-weight: bold;
+} 
+
+.title {
+	font-family: 'Bangers', cursive;
+	font-weight: bold;
+	float: right;
+	margin-right: 5em;
+	padding-bottom: 25px;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.subtitle {
+	font-family: 'Bangers' cursive;
+	float: center;
+	color: #fff;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.primary {
+	background: #f8e4f1;
+	background-size: cover; 
+	height: auto;
+	padding: 50px 20px;
+}
+
+.summary {
+	font-family: 'Oswald';
+	color: grey;
+	font-size: 2.75rem;
+	width: 480px;
+	float: left;
+	margin: 2% 5% 5% 5%;
+	padding-bottom: 2%;
+}
+
+.summary2 {
+	font-family: 'Oswald';
+	color: grey;
+	font-size: 1.50em;
+	width: auto;
+	float: left;
+	padding-top: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.link-buttons {
+	float: left;
+	width: 40%;
+	/*padding: 2em 1em 0em 6em;*/
+	font-family: 'Bangers', cursive;
+
+}
+
+.index-img {
+	display: block;
+	border-width: 40px;
+	float: right;
+	padding: 2% 5%;
+}
+
+.gallery {
+	display: inline-block;
+	border-width: 40px;
+	float: right;
+	padding-right: 15%;
+	background-color: #f8e4f1;
+}
+
+.main-footer {
+	background: #facce9;
+	background-size: cover;
+}
+
+.links {
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    font-size: 1.2em;
+
+}
+
+.inpage1, .inpage2, .inpage3 {
+	width: 480px;
+	height: 100px;
+	display: block;
+	background-size: cover;
+	font-size: 2.5em;
+}
+
+.inpage1 {
+	/*margin-top: 15px;*/
+	background-size: cover;
+	border-radius: 30px 30px 5px 5px;
+	background-image: url(../img/girly_by_dixxiemae-d52jw67.jpg);
+}
+
+.inpage2 {
+	/*margin: 15px 12.5px 15px 0px;*/
+	border-radius: 5px;
+	background-image: url(../img/fourchris.png);
+}
+
+.inpage3 {
+	border-radius: 5px 5px 30px 30px;
+	background-image: url(../img/buttons.png);
+}
+
+.social-icon {
+	width: 65px;
+	opacity: 0.5;
+}
+
+.contact-form, .contact-form legend {
+	width:300px;
+	margin: 25%;
+}
+
+.contact-text {
+	width: 75%;
+	float:right;
+}
+
+#top-nav {
+	float: left;
+	font-size: 1.35em;
+/*	padding: 2.5rem 1.25rem 0rem 0rem;*/
+/*	margin-top: 3rem;
+	margin-bottom: 2rem;
+*/
+}
+
+#bottom {
+height: auto;
+
+}
+#bottom-nav {
+	margin: 30px 0px 15px 0px;
+}
+
+#social-media {
+	float: right;
+	padding: 30px 100px 30px;
+} 
+
+#contactsheet {
+	float: right;
+	background: #faccf9;
+	width: 250px;
+	height: 250px;
+	padding: 10px 0px 0px 35px;
+}
+
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay img {
+  margin-top:5%;
+}
+
+#overlay p {
+  color:white;
+}
+
+
