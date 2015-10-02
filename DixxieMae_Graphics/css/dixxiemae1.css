@@ -24,7 +24,7 @@ h2 {
 
 h1,
 h2 {
-	font-family: 'Bangers' cursive;
+	font-family: 'Bangers';
 	color: #fff;
 	text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
@@ -192,7 +192,7 @@ a:hover {
 /* Link Buttons*/
 .link-buttons {
 	width: 100%;
-	font-family: 'Bangers', cursive;
+	font-family: 'Bangers', ;
 	padding-bottom: 30px;
 }
 

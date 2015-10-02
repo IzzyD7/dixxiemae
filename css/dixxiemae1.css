@@ -24,7 +24,7 @@ h2 {
 
 h1,
 h2 {
-	font-family: 'Bangers' cursive;
+	font-family: 'Bangers';
 	color: #fff;
 	text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
@@ -104,6 +104,7 @@ a:hover {
 	background-size: auto;
 	position: center;
 	font-weight: bold;
+
 }
 
 .title1,
@@ -111,6 +112,7 @@ a:hover {
 .title3,
 .title4 {
 	position: center;
+	font-family: 'Bangers'; 
 }
 
 /* Body Styling */
@@ -136,7 +138,7 @@ a:hover {
 
 .summary2 {
 	font-family: 'Oswald';
-	color: grey;
+	color: gray;
 	font-size: 1.50em;
 	width: auto;
 	float: left;
