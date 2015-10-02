@@ -187,7 +187,344 @@ a:hover {
 	width: 50%;
 	height: auto;
 	padding-bottom: 25px;
+}/* Layout
+======================*/
+
+body {
+	/*padding-top: 70px;*/
+	width: 100%;
+	background-color: #f8e4f1;
 }
+.container {
+	max-width: 1000px;
+}
+
+h1 {
+	font-size: 6rem;
+	color: #fff;
+}
+
+h2 {
+	font-size: 3rem;
+	color: #fff;
+	font-weight: normal;
+	
+}
+
+h1,
+h2 {
+	font-family: "Bangers";
+	color: #fff;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+
+ul {
+	list-style:none;
+	margin: 0 auto;
+	padding: 0;
+	display: inline-block;
+	/*max-width: 780px;*/
+	text-align: center;
+}
+ul li {
+	display: inline-block;
+	padding: 8px;
+	background:white;
+	margin:10px;
+}
+ul li img {
+	display: block;
+}
+
+p,
+h6 {
+	font-family: 'Oswald';
+	color: gray;
+}
+
+p {
+	font-size: 2.75rem;
+	/*width: 480px;*/
+	float: left;
+	margin: 2% 5% 5% 5%;
+	padding-bottom: 2%;
+	}
+
+a:link {
+	text-decoration: none;
+  	color: #fff;
+	/*padding: 9px 9px 3px 9px;*/
+}
+
+a:visited {
+	color: #fff;
+	/*color: #f8e4f1;*/
+}
+
+a:hover {
+  color: #FF6699;
+}
+
+/*Nav styling*/
+.nav-pills {
+	background-color: #f8e4f1;
+}
+
+/*Header Styling*/
+.main-header1,
+.main-header2,
+.main-header3,
+.main-header4 {
+	height: auto;
+	width: 100%;
+	background: #facce9 url('../img/johnnie_banner_3.png') no-repeat center;
+	background-size: auto;
+	position: center;
+	font-weight: bold;
+
+}
+
+.title1,
+.title2,
+.title3,
+.title4 {
+	position: center;
+	font-family: "Bangers"; 
+}
+
+/* Body Styling */
+.primary {
+	padding-top: 5%;
+}
+
+.index-img {
+	/*display: none;*/
+	width: 70%;
+	height: auto;
+	padding-left: 10%;
+}
+
+.main-content {
+	padding-bottom: 30px;
+	/*padding-left: 110px;*/
+}
+
+.summary1 {
+	font-size: 1.25em;
+}
+
+.summary2 {
+	font-family: 'Oswald';
+	color: gray;
+	font-size: 1.50em;
+	width: auto;
+	float: left;
+/*	padding-top: 10px;
+	margin-left: 10%;
+	margin-right: 10%;*/
+}
+
+.submit-button {
+	margin-top: 10px;
+}
+
+/* Img Gallery */
+
+.gallery {
+	display: inline-block;
+	border-width: 40px;
+	background-color: #f8e4f1;
+}
+
+#imageGallery {
+	width: 100%;
+}
+
+#overlay {
+  background:rgba(250, 204, 233,0.8);
+  width:100%;
+  height:auto;
+  position: absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay img {
+  margin-top:5%;
+  margin-bottom: 10%;
+  width: 100%;
+}
+
+#overlay p {
+  color:#191718;
+  text-decoration: underline;
+}
+
+#contact-form {
+	width: 50%;
+	height: auto;
+	padding-bottom: 25px;
+}
+
+/* Link Buttons*/
+.link-buttons {
+	width: 100%;
+	font-family: "Bangers", cursive;
+	padding-bottom: 30px;
+}
+
+.contact-link {
+	width: 300px;
+	padding-top: 35px;
+	float: right;
+}
+
+.about-link {
+	width: 300px;
+	padding-top: 70px;
+	float: right;
+}
+
+.inpage0, .inpage1, .inpage2, .inpage3 {
+/*	width: 200px;
+	height: 75px;*/
+	display: block;
+	background-size: cover;
+	font-size: 2.5em;
+	text-shadow: 0 1px 0 #ccc,
+           0 2px 0 #c9c9c9,
+           0 3px 0 #bbb,
+           0 4px 0 #b9b9b9,
+           0 5px 0 #aaa,
+           0 6px 1px rgba(0,0,0,.1),
+           0 0 5px rgba(0,0,0,.1),
+           0 1px 3px rgba(0,0,0,.3),
+           0 3px 5px rgba(0,0,0,.2),
+           0 5px 10px rgba(0,0,0,.25),
+           0 10px 10px rgba(0,0,0,.2),
+           0 20px 20px rgba(0,0,0,.15);
+}
+.inpage0 {
+	border-radius: 30px 30px 5px 5px;
+	background-image: url('../img/ash2.png');
+}
+
+.inpage1 {
+	border-radius: 5px;
+	background-image: url('../img/girly_by_dixxiemae-d52jw67.jpg');
+}
+
+
+.inpage2 {
+	border-radius: 5px;
+	background-image: url('../img/buttons.png');
+}
+
+.inpage3 {
+	border-radius: 5px 5px 30px 30px;
+	background-image: url('../img/fourchris.png');
+}
+
+/* Footer Styling */
+
+.main-footer {
+	background: #facce9;
+	background-size: cover;
+	padding-top: 30px;
+	height: auto;
+	width: 100%;
+}
+
+.social-media {
+	width: 150px;
+}
+
+.social-icon {
+	opacity: 0.75;
+}
+
+.copyright {
+	text-align: center;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 767px) {
+	
+	#top-nav1 {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 402px) {
+
+	#overlay img {
+		width: auto;	
+	}
+
+
+}
+
+@media screen and (min-width: 768px) {
+	
+	.summary1{
+		font-size: 2.75rem;
+	}
+
+	.social-media {
+		width: 245px;
+	}
+	
+
+	#bottom-nav1 {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+		.index-img {
+		display: inline-block; 
+	}
+		.title1,
+		.title2,
+		.title3,
+		.title4 {
+			float: left;
+		}
+
+		.main-header1,
+		.main-header2,
+		.main-header3,
+		.main-header4 {
+			background: #facce9 url('../img/johnnie_banner_3.png') no-repeat right;
+		}
+
+		.main-content {
+		padding-left: 110px;
+	}
+}
+
+
+
+
+
+
+
 
 /* Link Buttons*/
 .link-buttons {
